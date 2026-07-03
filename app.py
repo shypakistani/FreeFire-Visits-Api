@@ -1,9 +1,3 @@
-#This was made by AGAJAYOFFICIAL 
-#This was made by AGAJAYOFFICIAL 
-#This was made by AGAJAYOFFICIAL 
-#This was made by AGAJAYOFFICIAL 
-#This was made by AGAJAYOFFICIAL 
-# Randve Agar Credit Change Karke Apne Channel Per Dala To 🌚 
 from flask import Flask, jsonify
 import aiohttp
 import asyncio
@@ -37,7 +31,7 @@ def get_url(server_name):
     elif server_name in {"BR", "US", "SAC", "NA"}:
         return "https://client.us.freefiremobile.com/GetPlayerPersonalShow"
     else:
-        return "https://clientbp.ggblueshark.com/GetPlayerPersonalShow"
+        return "https://clientbp.ggpolarbear.com/GetPlayerPersonalShow"
 
 def parse_protobuf_response(response_data):
     try:
@@ -142,9 +136,3 @@ def send_visits(server, uid):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000)
-    
-    
-    
-
-
-#made by agajayofficial 
